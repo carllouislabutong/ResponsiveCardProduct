@@ -21,17 +21,23 @@ function App() {
           <h1 className=" font-bold text-[2.5rem] leading-10 mt-4">
             Grabielle <span className="block"> Essence Eau </span>De Parfum
           </h1>
-          <p className="text-slate-500 mt-4">
+          <p className="text-slate-500 mt-4" id="midtext">
             A floral,solar and voluptuous{" "}
             <span className=" block">interpretation composed by</span>{" "}
             <span className="block">Olivier Polge,Perfumer-Creator</span>
             for the house of CHANEL.
           </p>
           <div className="flex items-center gap-5 mt-4">
-            <h1 className=" text-green-900 font-extrabold text-[2rem]">
+            <h1
+              className=" text-green-900 font-extrabold text-[2rem]"
+              id="price"
+            >
               $149.99
             </h1>
-            <h1 className=" line-through text-slate-400 text-[0.80rem]">
+            <h1
+              className=" line-through text-slate-400 text-[0.80rem]"
+              id="price"
+            >
               $169.99
             </h1>
           </div>
